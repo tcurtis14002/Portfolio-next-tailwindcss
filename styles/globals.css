@@ -7,3 +7,7 @@
 		@apply rounded-full border border-[#242424] px-6 py-2 text-xs uppercase tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
 	}
 }
+
+.contactInput {
+	@apply rounded-sm border-b border-[#242424] bg-slate-400/10 px-6 py-4 text-gray-500 placeholder-gray-500 outline-none transition-all focus:border-[#f7AB0A] focus:text-[#F7AB0A]/40;
+}
