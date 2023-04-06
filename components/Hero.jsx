@@ -10,7 +10,8 @@ function Hero() {
 		words: [
 			"Hey, my name is Tyler Curtis",
 			"<Developer />",
-			"avid-learner.jsx",
+			"World Traveler",
+			"Lifelong Learner",
 		],
 		loop: true,
 		delaySpeed: 2000,
