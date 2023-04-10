@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-function Header() {
+function Header({ socials }) {
 	return (
 		<header className='sticky top-0 z-20 mx-auto flex max-w-6xl items-start justify-between p-5 xl:items-center '>
 			{/* Social Header */}
@@ -23,6 +23,7 @@ function Header() {
 				}}
 				className='flex flex-row items-center'>
 				{/* Social Icons */}
+				})}
 				<SocialIcon
 					url='twitter.com'
 					fgColor='gray'
