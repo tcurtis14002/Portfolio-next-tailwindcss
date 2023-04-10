@@ -29,7 +29,6 @@ function Skills() {
 				<Skill />
 				<Skill />
 				<Skill />
-				<Skill />
 			</div>
 		</motion.div>
 	);
