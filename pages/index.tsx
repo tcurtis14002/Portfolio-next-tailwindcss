@@ -8,12 +8,19 @@ import WorkExperience from "../components/WorkExperience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
-import { PageInfo, Experience, Project, Skill, Social } from "../typings";
+import type {
+	PageInfo,
+	Experience,
+	Project,
+	Skill,
+	Social,
+} from "../typings";
 import { fetchExperiences } from "../utils/fetchExperiences";
 import { fetchSkills } from "../utils/fetchSkills";
 import { fetchProjects } from "../utils/fetchProjects";
 import { fetchSocials } from "../utils/fetchSocials";
 import { fetchPageInfo } from "../utils/fetchPageInfo";
+import { GetStaticProps } from "next";
 
 type Props = {
 	pageInfo: PageInfo;
@@ -23,13 +30,13 @@ type Props = {
 	socials: Social[];
 };
 
-export default function Home({
+const Home = ({
 	pageInfo,
 	experiences,
 	projects,
 	skills,
 	socials,
-}: Props) {
+}: Props) => {
 	return (
 		<div className='z-0 h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll bg-[rgb(36,36,36)] text-white scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
 			<Head>
@@ -50,7 +57,7 @@ export default function Home({
 			<section
 				id='experience'
 				className='snap-center'>
-				<Experience />
+				<WorkExperience />
 			</section>
 			<section
 				id='skills'
@@ -69,7 +76,7 @@ export default function Home({
 			</section>
 		</div>
 	);
-}
+};
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
 	const pageInfo: PageInfo = await fetchPageInfo();
@@ -93,3 +100,4 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 		revalidate: 100,
 	};
 };
+export default Home;
