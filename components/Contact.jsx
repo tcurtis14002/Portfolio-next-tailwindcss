@@ -29,12 +29,10 @@ function Contact() {
 
 			<div className='flex flex-col space-y-10'>
 				<h4 className='text-center text-4xl font-semibold'>
-					I'm looking forward to helping you achieve your goals.
-					<h4>
-						<span className='underline decoration-[#F7AB0A]/50'>
-							Let's connect.
-						</span>
-					</h4>
+					I'm looking forward to helping you achieve your goals.{" "}
+					<span className='underline decoration-[#F7AB0A]/50'>
+						Let's connect.
+					</span>
 				</h4>
 				<div className='flex flex-col items-center justify-center space-x-5 space-y-10'>
 					<div className='flex items-center'>
