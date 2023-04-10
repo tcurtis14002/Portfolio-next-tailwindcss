@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function ExperienceCard() {
-	const armyPic = "/../public/Army.png";
 	return (
 		<article
 			className='md:w- flex w-[500px] flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg
@@ -14,7 +13,7 @@ function ExperienceCard() {
 			hover:opacity-100'>
 			<motion.img
 				className='h-32 w-32 rounded-full object-cover object-center md:rounded-full xl:h-[200px] xl:w-[200px]'
-				src={armyPic}
+				// src={placeholder}
 				alt='army logo'
 				height={100}
 				width={100}
