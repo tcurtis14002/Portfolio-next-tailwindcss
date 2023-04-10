@@ -22,23 +22,14 @@ function Header({ socials }) {
 					duration: 1.5,
 				}}
 				className='flex flex-row items-center'>
-				{/* Social Icons */}
+				{socials.map((social) => {
+					<SocialIcon
+						key={social.id}
+						url={social.url}
+						fgColor='gray'
+						bgColor='transparent'
+					/>;
 				})}
-				<SocialIcon
-					url='twitter.com'
-					fgColor='gray'
-					bgColor='transparent'
-				/>
-				<SocialIcon
-					url='twitter.com'
-					fgColor='gray'
-					bgColor='transparent'
-				/>
-				<SocialIcon
-					url='twitter.com'
-					fgColor='gray'
-					bgColor='transparent'
-				/>
 			</motion.div>
 
 			<Link href='#contact'>

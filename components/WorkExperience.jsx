@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
 
-function Experience() {
+function WorkExperience() {
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -22,4 +22,4 @@ function Experience() {
 	);
 }
 
-export default Experience;
+export default WorkExperience;
