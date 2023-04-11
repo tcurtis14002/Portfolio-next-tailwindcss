@@ -17,6 +17,7 @@ export interface Social extends SanityBody {
 	_type: "social";
 	title: string;
 	url: string;
+	id: string;
 }
 
 export interface PageInfo extends SanityBody {
