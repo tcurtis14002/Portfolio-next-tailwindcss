@@ -1,5 +1,3 @@
-import {createSchema} from 'sanity'
-
 import experience from './experience'
 import pageInfo from './pageInfo'
 import project from './project'
