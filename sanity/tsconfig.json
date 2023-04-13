@@ -22,7 +22,13 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "schemas/schema.js"
+    "schemas/schema.js",
+    "schemas/social.js",
+    "schemas/skill.js",
+    "schemas/projects.js",
+    "schemas/project.js",
+    "schemas/pageInfo.js",
+    "schemas/experience.js"
   ],
   "exclude": [
     "node_modules"
