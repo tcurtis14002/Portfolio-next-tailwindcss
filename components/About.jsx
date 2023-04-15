@@ -25,7 +25,8 @@ function About() {
 				whileInView={{
 					opacity: 1,
 					x: 0,
-				}}>
+				}}
+				viewport={{ once: true }}>
 				<Image
 					height={500}
 					width={500}
