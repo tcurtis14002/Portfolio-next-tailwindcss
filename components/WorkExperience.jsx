@@ -1,6 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
+import {
+	army,
+	largo,
+	moffitt,
+	eu17,
+	eu19,
+	spain,
+	codecademy,
+} from "../pages/experienceData";
 
 function WorkExperience() {
 	return (
@@ -13,10 +22,13 @@ function WorkExperience() {
 				Experience
 			</h3>
 			<div className='flex w-full snap-x snap-mandatory space-x-5 overflow-x-scroll p-10 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
-				<ExperienceCard />
-				<ExperienceCard />
-				<ExperienceCard />
-				<ExperienceCard />
+				<ExperienceCard work={army} />
+				<ExperienceCard work={largo} />
+				<ExperienceCard work={moffitt} />
+				<ExperienceCard work={eu17} />
+				<ExperienceCard work={eu19} />
+				<ExperienceCard work={spain} />
+				<ExperienceCard work={codecademy} />
 			</div>
 		</motion.div>
 	);
