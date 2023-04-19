@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function ExperienceCard({ work }) {
+	let i = 0;
 	return (
 		<article
 			className='md:w- flex w-[500px] flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg
@@ -34,23 +35,10 @@ function ExperienceCard({ work }) {
 				</p>
 				<ul className='ml-5 list-disc space-y-4 text-lg'>
 					{work.summary.map((point) => (
-						<li>{point}</li>
+						<li key={i++}>{point}</li>
 					))}
 				</ul>
 			</div>
-
-			{/* <div className='px-0 md:px-10'>
-				<h4 className='text-4xl font-light'>Medic</h4>
-				<p className='mt-1 text-2xl font-bold'>US Army</p>
-				<span className='py-5 uppercase text-gray-300'>
-					October, 2012 - October, 2019
-				</span>
-				<ul className='ml-5 list-disc space-y-4 text-lg pt-5'>
-					<li>Provided Medical Training</li>
-					<li>Primary medical support during missions and training</li>
-					<li>Responsible for up to 100 soliders</li>
-				</ul>
-			</div> */}
 		</article>
 	);
 }
