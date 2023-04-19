@@ -44,19 +44,20 @@ function Projects() {
 					<div className='max-w-6xl space-y-10 px-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 md:px-10'>
 						<div className='flex flex-row items-center justify-around'>
 							<h3 className='pr-10 text-3xl'>Travel Page</h3>
-							<Icon
-								src={react.src}
-								proficiency={react.proficiency}
-								className='icon'
-							/>
-							<Icon
-								src={tailwindcss.src}
-								proficiency={tailwindcss.proficiency}
-							/>
-							<Icon
-								src={next.src}
-								proficiency={next.proficiency}
-							/>
+							<div className='border-box flex flex-row items-center justify-center space-x-5'>
+								<Icon
+									src={react.src}
+									proficiency={react.proficiency}
+								/>
+								<Icon
+									src={tailwindcss.src}
+									proficiency={tailwindcss.proficiency}
+								/>
+								<Icon
+									src={next.src}
+									proficiency={next.proficiency}
+								/>
+							</div>
 						</div>
 
 						<span className='underline decoration-[#F7AB0A]/50'></span>
