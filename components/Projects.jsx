@@ -22,13 +22,13 @@ function Projects() {
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 1.5 }}
-			className='relative z-0 mx-auto flex h-screen max-w-[2000px] flex-col items-center justify-evenly px-10 text-center md:flex-row md:text-left xl:flex-row '>
-			<h3 className='absolute top-24 min-h-screen text-2xl uppercase tracking-[20px] text-gray-500 xl:space-y-0'>
+			className='relative z-0 mx-auto flex h-screen max-w-[2000px] flex-col items-center justify-evenly text-center md:flex-row md:text-left xl:flex-row '>
+			<h3 className='border-box absolute top-24 min-h-screen text-2xl uppercase tracking-[20px] text-gray-500 xl:space-y-0'>
 				Projects
 			</h3>
 
-			<div className='relative z-20 flex w-full snap-x snap-mandatory overflow-x-hidden overflow-y-hidden '>
-				<div className='flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44'>
+			<div className='border-box relative z-20 flex w-full '>
+				<div className='border-box mx-auto flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44'>
 					<motion.img
 						initial={{
 							y: -100,
