@@ -25,9 +25,9 @@ function Contact() {
 			className='relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-evenly px-10 text-center md:flex-row md:text-left '>
 			<div className='flex flex-col space-y-10'>
 				<h4 className='text-center text-4xl font-semibold'>
-					I'm looking forward to helping you achieve your goals.{" "}
+					I&apos;m looking forward to helping you achieve your goals.{" "}
 					<span className='underline decoration-[#F7AB0A]/50'>
-						Let's connect.
+						Let&apos;s connect.
 					</span>
 				</h4>
 				<div className='flex flex-col items-center justify-center space-x-5 space-y-10'>
