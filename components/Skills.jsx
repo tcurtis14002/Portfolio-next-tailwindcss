@@ -9,7 +9,7 @@ import {
 	vsCode,
 	ts,
 	sanity,
-} from "../pages/skillData";
+} from "../data/skillData";
 
 function Skills() {
 	return (

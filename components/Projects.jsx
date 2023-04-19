@@ -2,7 +2,7 @@ import { MotionConfig } from "framer-motion";
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { travel } from "../pages/projectsData";
+import { travel } from "../data/projectsData";
 import { Project } from "./Project";
 import Icon from "./Icon";
 import {
@@ -14,7 +14,7 @@ import {
 	vsCode,
 	ts,
 	sanity,
-} from "../pages/skillData";
+} from "../data/skillData";
 
 function Projects() {
 	return (

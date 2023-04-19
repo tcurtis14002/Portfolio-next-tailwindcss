@@ -9,7 +9,7 @@ import {
 	eu19,
 	spain,
 	codecademy,
-} from "../pages/experienceData";
+} from "../data/experienceData";
 
 function WorkExperience() {
 	return (
