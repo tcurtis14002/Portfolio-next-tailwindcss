@@ -44,10 +44,19 @@ function About() {
 					background:
 				</h4>
 				<p className='text-base'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-					error fugit sed repudiandae saepe temporibus perspiciatis dolorem
-					vel, asperiores possimus facilis quidem at alias! Soluta dolorem
-					labore cumque quam tempore!
+					I really enjoy learning and doing new things, which is a nice way
+					of putting I HATE being bored. I am constantly planning my next
+					adventure to a new city or remote land, challenging myself
+					physically by running, climbing, and hiking, or spending time
+					with my dog Shay.
+				</p>
+
+				<p>
+					When it comes to web development, I am beyond passionate. I left
+					my former career in healthcare to join the best career field in
+					modern times. I truly enjoy collaberating on projects and
+					thinking outside the box to come up with creative solutions for
+					complexe problems.
 				</p>
 			</div>
 		</motion.div>
