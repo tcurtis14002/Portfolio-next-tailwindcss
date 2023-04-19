@@ -32,7 +32,7 @@ export const eu17 = {
 		"First international trip, visited London, Rome, Paris, Switzerland, and Dublin",
 		"Learned how to travel respecfully while learning about the culture and history of the people there",
 	],
-	src: "/eu_17.jpg",
+	src: "/paris.jpeg",
 	key: 3,
 };
 
@@ -45,7 +45,7 @@ export const spain = {
 		"Traveled internationally with my mother to Mardrid and Barcelona",
 		"enjoyed the rich nightlife culture by resting during afternoon siestas and eating multiple times a night",
 	],
-	src: "/spain2.jpg",
+	src: "/spain.jpg",
 	key: 4,
 };
 export const moffitt = {
@@ -69,7 +69,7 @@ export const eu19 = {
 		"longest international trip spanning 6 countries over 5 weeks",
 		"experienced traditional Christmas in Germany with gluhwein and visiting christkindlemarkt",
 	],
-	src: "/eu_19.jpg",
+	src: "/belgium.jpeg",
 	key: 6,
 };
 export const codecademy = {

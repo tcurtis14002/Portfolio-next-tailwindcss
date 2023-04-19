@@ -18,8 +18,8 @@ function Hero() {
 	return (
 		<div className='flex h-screen flex-col items-center justify-center space-y-8 overflow-hidden text-center'>
 			<BackgroundCircles />
-			<Image
-				src='/profile.JPG'
+			<img
+				src='/profile.jpg'
 				alt='Very Cool Picture of Developer'
 				height={100}
 				width={100}

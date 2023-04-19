@@ -30,7 +30,7 @@ function About() {
 					height={500}
 					width={500}
 					transition={{ duration: 1.2 }}
-					src='/amsterdam.JPG'
+					src='/amsterdam.jpg'
 					alt='picture of developer'
 					className='md:h-95 md: -mb-20 h-60 w-60 flex-shrink-0 rounded-full object-cover md:mb-0 md:w-64 md:rounded-lg xl:h-[600px] xl:w-[500px]'
 				/>
