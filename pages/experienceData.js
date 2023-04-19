@@ -3,16 +3,22 @@ export const army = {
 	title: "Medic",
 	started: "October, 2012",
 	ended: "October, 2019",
-	summary: ["army1", "army2", ],
+	summary: [
+		"Responsible for the overall health and welfare, as well as the treatment and follow up care of 50+ assigned company personnel",
+		"Execute preventative care plans and provide medical aid when needed.",
+	],
 	src: "/Army.jpg",
 	key: 1,
 };
 export const largo = {
 	company: "Largo Medical Center - ER, ICU, Cardiac",
-	title: "Medical Assistant",
+	title: "Nursing Assistant",
 	started: "January, 2016",
 	ended: "September, 2019",
-	summary: ["largo1", "largo2", ],
+	summary: [
+		"Answering call lights, efficient time management and prioritization of patient care",
+		"Assist patients with activities of daily living including meals, bathing, dressing and grooming",
+	],
 	src: "/HCA-Healthcare-Logo.png",
 	key: 2,
 };
@@ -22,7 +28,10 @@ export const eu17 = {
 	title: "Traveler",
 	started: "December, 2017",
 	ended: "Janurary, 2018",
-	summary: ["eu17 1", "eu17 2", ],
+	summary: [
+		"First international trip, visited London, Rome, Paris, Switzerland, and Dublin",
+		"Learned how to travel respecfully while learning about the culture and history of the people there",
+	],
 	src: "/eu_17.jpg",
 	key: 3,
 };
@@ -32,8 +41,11 @@ export const spain = {
 	title: "Traveler",
 	started: "March, 2018",
 	ended: "April, 2018",
-	summary: ["sapin1", "spain2", ],
-	src: "/spain.jpg",
+	summary: [
+		"Traveled internationally with my mother to Mardrid and Barcelona",
+		"enjoyed the rich nightlife culture by resting during afternoon siestas and eating multiple times a night",
+	],
+	src: "/spain2.jpg",
 	key: 4,
 };
 export const moffitt = {
@@ -41,7 +53,10 @@ export const moffitt = {
 	title: "Medical Assistant",
 	started: "September, 2019",
 	ended: "March, 2021",
-	summary: ["moffitt1", "moffitt2", ],
+	summary: [
+		"Assisted with patient activities and care as assigned by the attending physician as indicated by patient's plan of care",
+		"Assisted in various medical procedures i.e. central line insertion, thoracentesis, plurex drainage, biopsies, and foley catheter insertions",
+	],
 	src: "/moffitt.webp",
 	key: 5,
 };
@@ -50,16 +65,22 @@ export const eu19 = {
 	title: "Traveler",
 	started: "November, 2019",
 	ended: "Janurary, 2020",
-	summary: ["point1", "point2", ],
+	summary: [
+		"longest international trip spanning 6 countries over 5 weeks",
+		"experienced traditional Christmas in Germany with gluhwein and visiting christkindlemarkt",
+	],
 	src: "/eu_19.jpg",
 	key: 6,
 };
 export const codecademy = {
 	company: "Codecademy",
-	title: "Student - Full Stack Engineer",
+	title: "Full Stack Engineer Student",
 	started: "January, 2021",
 	ended: "current",
-	summary: ["code1", "code2", ],
+	summary: [
+		"Completed the front-end engineering career path",
+		"Currently enrolled in the back-end engineering career path",
+	],
 	src: "/codecademy.jpeg",
 	key: 7,
 };
