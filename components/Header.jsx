@@ -30,6 +30,7 @@ export default function Header() {
 						url='https://twitter.com/_tc10'
 						fgColor='gray'
 						bgColor='transparent'
+						target='_blank'
 					/>
 					<SocialIcon
 						className='hover: hover:fg-[#F7AB0A]/40 cursor-pointer rounded-full border border-[#242424] transition-all hover:border-[#F7AB0A]/40 '
@@ -37,6 +38,7 @@ export default function Header() {
 						url='https://www.linkedin.com/in/tyler-curtis-b86563272/'
 						fgColor='gray'
 						bgColor='transparent'
+						target='_blank'
 					/>
 				</div>
 			</motion.div>
