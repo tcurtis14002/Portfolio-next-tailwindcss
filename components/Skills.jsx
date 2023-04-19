@@ -8,7 +8,7 @@ import {
 	next,
 	vsCode,
 	ts,
-	html,
+	sanity,
 } from "../pages/skillData";
 
 function Skills() {
@@ -59,8 +59,8 @@ function Skills() {
 					proficiency={next.proficiency}
 				/>
 				<Skill
-					src={html.src}
-					proficiency={html.proficiency}
+					src={sanity.src}
+					proficiency={sanity.proficiency}
 				/>
 			</div>
 		</motion.div>
