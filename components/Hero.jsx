@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Hero() {
-	const profilePic = "/../public/profile.JPG";
 	const [text, count] = useTypewriter({
 		words: [
 			"Hey, my name is Tyler Curtis",
@@ -20,7 +19,7 @@ function Hero() {
 		<div className='flex h-screen flex-col items-center justify-center space-y-8 overflow-hidden text-center'>
 			<BackgroundCircles />
 			<Image
-				src={profilePic}
+				src='/profile.JPG'
 				alt='Very Cool Picture of Developer'
 				height={100}
 				width={100}

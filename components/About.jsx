@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 function About() {
-	const aboutPic = "/../public/amsterdam.JPG";
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -31,7 +30,7 @@ function About() {
 					height={500}
 					width={500}
 					transition={{ duration: 1.2 }}
-					src={aboutPic}
+					src='/amsterdam.JPG'
 					alt='picture of developer'
 					className='md:h-95 md: -mb-20 h-60 w-60 flex-shrink-0 rounded-full object-cover md:mb-0 md:w-64 md:rounded-lg xl:h-[600px] xl:w-[500px]'
 				/>
