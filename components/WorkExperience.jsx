@@ -23,12 +23,12 @@ function WorkExperience() {
 			</h3>
 			<div className='flex w-full snap-x snap-mandatory space-x-5 overflow-x-scroll p-10 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
 				<ExperienceCard work={army} />
-				<ExperienceCard work={largo} />
-				<ExperienceCard work={moffitt} />
+				<ExperienceCard work={codecademy} />
 				<ExperienceCard work={eu17} />
+				<ExperienceCard work={largo} />
 				<ExperienceCard work={eu19} />
 				<ExperienceCard work={spain} />
-				<ExperienceCard work={codecademy} />
+				<ExperienceCard work={moffitt} />
 			</div>
 		</motion.div>
 	);
