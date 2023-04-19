@@ -5,13 +5,13 @@ function ExperienceCard({ work }) {
 	let i = 0;
 	return (
 		<article
-			className='md:w- flex w-[500px] flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg
-			bg-[#292929]
+			className='flex w-[500px] flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929]
 			p-10
 			opacity-40
 			transition-opacity
 			duration-200
-			hover:opacity-100'>
+			hover:opacity-100
+			md:w-[450px]'>
 			<motion.img
 				className='h-32 w-32 rounded-full object-cover object-center md:rounded-full xl:h-[200px] xl:w-[200px]'
 				src={work.src}

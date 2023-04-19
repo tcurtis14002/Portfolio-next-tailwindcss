@@ -76,17 +76,6 @@ function Contact() {
 							Submit
 						</button>
 					</form>
-
-					<Link href='https://github.com/tcurtis14002/Portfolio-next-tailwindcss'>
-						<footer className='flex flex-col items-center justify-center '>
-							<div className='items-center justify-center text-center text-sm text-white'>
-								<FaGithub className='h-9 w-9 animate-pulse text-[#F7AB0A]' />
-							</div>
-							<div className='animate-pulse text-[#F7AB0A]'>
-								Click for code!
-							</div>
-						</footer>
-					</Link>
 				</div>
 			</div>
 		</motion.div>
