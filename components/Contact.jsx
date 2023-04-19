@@ -23,10 +23,6 @@ function Contact() {
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 1.5 }}
 			className='relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-evenly px-10 text-center md:flex-row md:text-left '>
-			<h3 className='absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500'>
-				Contact
-			</h3>
-
 			<div className='flex flex-col space-y-10'>
 				<h4 className='text-center text-4xl font-semibold'>
 					I'm looking forward to helping you achieve your goals.{" "}
