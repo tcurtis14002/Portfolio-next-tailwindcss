@@ -1,6 +1,15 @@
-import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
+import {
+	react,
+	tailwindcss,
+	js,
+	node,
+	next,
+	vsCode,
+	ts,
+	html,
+} from "../pages/skillData";
 
 function Skills() {
 	return (
@@ -17,18 +26,42 @@ function Skills() {
 				Hover for current proficiency
 			</h3>
 			<div className='grid grid-cols-4 gap-5'>
-				<Skill directionLeft={true} />
-				<Skill directionLeft={true} />
-				<Skill directionLeft={true} />
-				<Skill directionLeft={true} />
-				<Skill directionLeft={true} />
-				<Skill directionLeft={true} />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
+				<Skill
+					directionLeft={true}
+					src={react.src}
+					proficiency={react.proficiency}
+				/>
+				<Skill
+					directionLeft={true}
+					src={js.src}
+					proficiency={js.proficiency}
+				/>
+				<Skill
+					directionLeft={true}
+					src={tailwindcss.src}
+					proficiency={tailwindcss.proficiency}
+				/>
+				<Skill
+					directionLeft={true}
+					src={ts.src}
+					proficiency={ts.proficiency}
+				/>
+				<Skill
+					src={vsCode.src}
+					proficiency={vsCode.proficiency}
+				/>
+				<Skill
+					src={node.src}
+					proficiency={node.proficiency}
+				/>
+				<Skill
+					src={next.src}
+					proficiency={next.proficiency}
+				/>
+				<Skill
+					src={html.src}
+					proficiency={html.proficiency}
+				/>
 			</div>
 		</motion.div>
 	);
