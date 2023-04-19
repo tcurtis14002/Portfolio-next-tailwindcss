@@ -4,6 +4,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { travel } from "../pages/projectsData";
 import { Project } from "./Project";
+import Icon from "./Icon";
+import {
+	react,
+	tailwindcss,
+	js,
+	node,
+	next,
+	vsCode,
+	ts,
+	sanity,
+} from "../pages/skillData";
 
 function Projects() {
 	return (
@@ -16,7 +27,7 @@ function Projects() {
 				Projects
 			</h3>
 
-			<div className='relative z-20 flex w-full snap-x snap-mandatory overflow-y-hidden overflow-x-scroll '>
+			<div className='relative z-20 flex w-full snap-x snap-mandatory overflow-x-hidden overflow-y-hidden '>
 				<div className='flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44'>
 					<motion.img
 						initial={{
@@ -31,7 +42,23 @@ function Projects() {
 						className='h-72 w-72 rounded-sm '
 					/>
 					<div className='max-w-6xl space-y-10 px-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 md:px-10'>
-						<h4>Travel Page</h4>
+						<div className='flex flex-row items-center justify-around'>
+							<h3 className='pr-10 text-3xl'>Travel Page</h3>
+							<Icon
+								src={react.src}
+								proficiency={react.proficiency}
+								className='icon'
+							/>
+							<Icon
+								src={tailwindcss.src}
+								proficiency={tailwindcss.proficiency}
+							/>
+							<Icon
+								src={next.src}
+								proficiency={next.proficiency}
+							/>
+						</div>
+
 						<span className='underline decoration-[#F7AB0A]/50'></span>
 						<p className='text-center text-lg md:text-left'>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
