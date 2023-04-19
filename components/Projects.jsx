@@ -61,11 +61,11 @@ function Projects() {
 
 						<span className='underline decoration-[#F7AB0A]/50'></span>
 						<p className='text-center text-lg md:text-left'>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Totam repellat vitae nobis fuga earum odit obcaecati quam
-							aut, veritatis, dolores dignissimos omnis sint! Molestias
-							earum iste necessitatibus illo, odit dicta magnam voluptas
-							magni ea delectus praesentium. Laborum fuga inventore cum!
+							This is a content management page showcasing breathtaking
+							photography from around the world using an interactive map,
+							blogs written about countries greatest vacation spots, and a
+							feature even helping you to decide details for your next
+							trip.
 						</p>
 					</div>
 				</div>
