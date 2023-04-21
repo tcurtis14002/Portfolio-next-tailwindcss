@@ -39,29 +39,16 @@ function Projects() {
 						viewport={{ once: true }}
 						src='/coming_soon.jpg'
 						alt='image with text saying coming soon'
-						className='h-72 w-72 rounded-sm '
+						className='h-58 w-58 rounded-sm md:h-52 md:w-52'
 					/>
 					<div className='max-w-6xl space-y-10 px-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 md:px-10'>
 						<div className='flex flex-row items-center justify-around'>
-							<h3 className='pr-10 text-3xl'>Travel Page</h3>
-							<div className='border-box flex flex-row items-center justify-center space-x-5'>
-								<Icon
-									src={react.src}
-									proficiency={react.proficiency}
-								/>
-								<Icon
-									src={tailwindcss.src}
-									proficiency={tailwindcss.proficiency}
-								/>
-								<Icon
-									src={next.src}
-									proficiency={next.proficiency}
-								/>
-							</div>
+							<h3 className=' text-center text-3xl'>Travel Page</h3>
 						</div>
-
+					</div>
+					<div>
 						<span className='underline decoration-[#F7AB0A]/50'></span>
-						<p className='text-center text-lg md:text-left'>
+						<p className='align-center text-center text-lg md:text-left'>
 							This is a content management page showcasing breathtaking
 							photography from around the world using an interactive map,
 							blogs written about countries greatest vacation spots, and a
@@ -70,7 +57,6 @@ function Projects() {
 						</p>
 					</div>
 				</div>
-				;
 			</div>
 
 			<div className='absolute left-0 top-[30%] h-[500px] w-full -skew-y-12 bg-[#F7AB0A]/10 blur-[2px]' />
