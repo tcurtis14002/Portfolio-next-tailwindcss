@@ -58,16 +58,14 @@ export default function Header() {
 				transition={{
 					duration: 1.5,
 				}}
-				className='flex cursor-pointer flex-row items-center text-gray-300'>
+				className='flex flex-row items-center text-gray-300'>
 				<SocialIcon
-					className='cursor-pointer'
+					className='hover: hover:fg-[#F7AB0A]/40 cursor-pointer rounded-full border border-[#242424] transition-all hover:border-[#F7AB0A]/40 '
 					network='email'
+					url='/#contact'
 					fgColor='gray'
 					bgColor='transparent'
 				/>
-				<p className=' hidden text-sm uppercase text-gray-400 decoration-[#F7AB0A]/40 underline-offset-4 transition-all hover:underline md:inline-flex'>
-					Get in Touch
-				</p>
 			</motion.div>
 		</header>
 	);
