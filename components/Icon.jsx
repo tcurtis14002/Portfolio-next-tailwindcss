@@ -21,7 +21,7 @@ function Icon({ src, proficiency }) {
 				transition={{ duration: 1 }}
 				whileInView={{ opacity: 1, x: 0 }}
 				viewport={{ once: true }}
-				className='xl:h-26 xl:w-26 h-16 w-16 rounded-full border border-gray-500 object-cover  filter ease-in-out md:h-20 md:w-20'
+				className='xl:h-26 xl:w-26 rounded-full border border-gray-500 object-cover filter ease-in-out  sm:h-10 sm:w-10 md:h-20 md:w-20'
 				src={src}
 			/>
 			<div className='xl:h-26 xl:w-26 absolute z-0 h-16 w-16  rounded-full opacity-0 md:h-20 md:w-20'>
