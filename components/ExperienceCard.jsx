@@ -38,7 +38,7 @@ function ExperienceCard({ work }) {
 				<p className='sm:py-1uppercase py-2 text-gray-300'>
 					Ended: {work.ended}
 				</p>
-				<ul className='md:text-md ml-5 list-disc space-y-4 text-base text-lg sm:space-y-2 sm:text-sm'>
+				<ul className='md:text-md ml-5 list-disc space-y-4 text-base sm:space-y-2 sm:text-sm'>
 					{work.summary.map((point) => (
 						<li
 							key={i++}
