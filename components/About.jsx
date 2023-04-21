@@ -9,7 +9,7 @@ function About() {
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 1.5 }}
 			viewport={{ once: true }}
-			className='relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-center px-10 text-center md:flex-row md:text-left'>
+			className='relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-center px-10 pb-10 text-center md:flex-row md:text-left'>
 			<h3 className='absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500'>
 				About
 			</h3>
@@ -32,7 +32,7 @@ function About() {
 					transition={{ duration: 1.2 }}
 					src='/amsterdam.jpg'
 					alt='picture of developer'
-					className='sm:h-30 sm:w-30 h-60 w-60 flex-shrink-0 rounded-full object-cover sm:pt-5 md:mb-0 md:w-64 md:rounded-lg xl:h-[600px] xl:w-[500px]'
+					className='sm:w-30 sm:h-30 h-60 w-60 flex-shrink-0 rounded-full object-cover sm:pt-5 md:mb-0 md:w-64 md:rounded-lg xl:h-[600px] xl:w-[500px]'
 				/>
 			</motion.div>
 
