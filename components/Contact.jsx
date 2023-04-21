@@ -16,7 +16,6 @@ function Contact() {
 	const onSubmit = (formData) => {
 		window.location.href = `mailto:twcurtis14002@gmail?subject=${formData.subject}&body=Hi, my name is ${formData.name}. This is my message: ${formData.message}`;
 	};
-
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -25,7 +24,7 @@ function Contact() {
 			className='relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-evenly px-10 text-center md:flex-row md:text-left '>
 			<div className='flex flex-col space-y-10'>
 				<h4 className='text-center text-4xl font-semibold'>
-					I&apos;m looking forward to helping you achieve your goals.{" "}
+					{" "}
 					<span className='underline decoration-[#F7AB0A]/50'>
 						Let&apos;s connect.
 					</span>
@@ -43,41 +42,39 @@ function Contact() {
 						<FaMapPin className='h-9 w-9 animate-pulse text-[#F7AB0A]' />
 						<p className='pl-3 text-2xl'>St. George, UT</p>
 					</div>
-
-					<form
-						onSubmit={handleSubmit(onSubmit)}
-						className=' mx-auto flex w-fit flex-col space-y-2'>
-						<div className='flex space-x-2'>
-							<input
-								className='contactInput'
-								type='text'
-								placeholder='Name'
-								{...register("name")}
-							/>
-							<input
-								className='contactInput'
-								type='email'
-								placeholder='Email'
-								{...register("email")}
-							/>
-						</div>
-						<input
-							className='contactInput'
-							type='text'
-							placeholder='Subject'
-							{...register("subject")}
-						/>
-						<textarea
-							className='contactInput'
-							placeholder='Message'
-							{...register("message")}
-						/>
-						<button className='px rounded-md bg-[#F7AB0A] px-10 py-5 text-lg font-bold text-[#242424]'>
-							Submit
-						</button>
-					</form>
 				</div>
 			</div>
+			<form
+				onSubmit={handleSubmit(onSubmit)}
+				className=' mx-auto flex w-fit flex-col space-y-2'>
+				<input
+					className='contactInput'
+					type='text'
+					placeholder='Name'
+					{...register("name")}
+				/>
+				<input
+					className='contactInput'
+					type='email'
+					placeholder='Email'
+					{...register("email")}
+				/>
+
+				<input
+					className='contactInput'
+					type='text'
+					placeholder='Subject'
+					{...register("subject")}
+				/>
+				<textarea
+					className='contactInput'
+					placeholder='Message'
+					{...register("message")}
+				/>
+				<button className='px rounded-md bg-[#F7AB0A] px-10 py-5 text-lg font-bold text-[#242424]'>
+					Submit
+				</button>
+			</form>
 		</motion.div>
 	);
 }
