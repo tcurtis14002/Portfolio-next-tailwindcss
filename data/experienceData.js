@@ -4,7 +4,7 @@ export const army = {
 	started: "October, 2012",
 	ended: "October, 2019",
 	summary: [
-		"Responsible for the overall health and welfare, as well as the treatment and follow up care of 50+ assigned company personnel",
+		"Responsible for the overall health and welfareof 50+ assigned company personnel",
 		"Execute preventative care plans and provide medical aid when needed.",
 	],
 	src: "/Army.jpg",
@@ -16,8 +16,8 @@ export const largo = {
 	started: "January, 2016",
 	ended: "September, 2019",
 	summary: [
-		"Answering call lights, efficient time management and prioritization of patient care",
-		"Assist patients with activities of daily living including meals, bathing, dressing and grooming",
+		"Efficient time management and prioritization of patient care",
+		"Assist patients with activities of daily living",
 	],
 	src: "/HCA-Healthcare-Logo.png",
 	key: 2,
@@ -43,7 +43,7 @@ export const spain = {
 	ended: "April, 2018",
 	summary: [
 		"Traveled internationally with my mother to Mardrid and Barcelona",
-		"enjoyed the rich nightlife culture by resting during afternoon siestas and eating multiple times a night",
+		"Enjoyed the rich difference of culture of Catalonia",
 	],
 	src: "/spain.jpg",
 	key: 4,
@@ -55,7 +55,7 @@ export const moffitt = {
 	ended: "March, 2021",
 	summary: [
 		"Assisted with patient activities and care as assigned by the attending physician as indicated by patient's plan of care",
-		"Assisted in various medical procedures i.e. central line insertion, thoracentesis, plurex drainage, biopsies, and foley catheter insertions",
+		"Assisted in various medical procedures",
 	],
 	src: "/moffitt.webp",
 	key: 5,
@@ -66,15 +66,15 @@ export const eu19 = {
 	started: "November, 2019",
 	ended: "Janurary, 2020",
 	summary: [
-		"longest international trip spanning 6 countries over 5 weeks",
-		"experienced traditional Christmas in Germany with gluhwein and visiting christkindlemarkt",
+		"Longest international trip spanning 6 countries over 5 weeks",
+		"Experienced traditional Christmas in Germany with gluhwein and visiting christkindlemarkt",
 	],
 	src: "/belgium.jpeg",
 	key: 6,
 };
 export const codecademy = {
 	company: "Codecademy",
-	title: "Full Stack Engineer Student",
+	title: "Student",
 	started: "January, 2021",
 	ended: "current",
 	summary: [
