@@ -17,7 +17,7 @@ function ApiProject() {
 				viewport={{ once: true }}
 				src='/crypto-tracker.png'
 				alt='image with text saying coming soon'
-				className='h-58 w-58 rounded-sm md:h-52 md:w-52'
+				className='w-full rounded-sm md:h-52 md:w-52'
 			/>
 			<div className=''>
 				<div className='flex flex-row items-center justify-around'>
