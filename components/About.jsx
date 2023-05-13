@@ -49,7 +49,7 @@ function About() {
 					passionate. I left my former career in healthcare to join the
 					best career field in modern times. I truly enjoy collaberating on
 					projects and thinking outside the box to come up with creative
-					solutions for complexe problems.
+					solutions for complex problems.
 				</p>
 			</div>
 		</motion.div>
